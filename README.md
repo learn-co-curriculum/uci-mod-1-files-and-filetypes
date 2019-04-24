@@ -1,6 +1,12 @@
 # Files, Extensions, and File Types
 
-## Problem Statement
+## Learning Goals
+
+- Define a file
+- Contrast _text files_ and _binary files_
+- Identify the function of file extensions
+
+## Introduction
 
 Have you tried to memorize a phone number "for a second" as you tried to write
 it down? Maybe you kept repeating it over and over?  Have you ever felt a little
@@ -23,18 +29,12 @@ into two main categories:
 Developers create _lots_ of files. This README will help us all get on the same
 page with how to talk about them.
 
-## Objectives
-
-1. Define what a file is
-2. Contrast _text files_ versus _binary files_
-3. Identify the function of file extensions
-
-## Define What a File Is
+## Define a File
 
 A file is a thing computers use to store facts ("data") or processes
 ("programs") for later use.
 
-## Contrast _Text Files_ Versus _Binary Files_
+## Contrast _Text Files_ and _Binary Files_
 
 Computers think in electricity.
 
@@ -60,7 +60,7 @@ Text, vim, or emacs.
 > "[plaintext][plaintext]" or "[plain text][plaintext] files" They all mean the
 > same thing.
 
-#### The Curious Case of Word Processing Files
+### The Curious Case of Word Processing Files
 
 What about files made by word processors Microsoft Word or MacOSX's TextEdit?
 While you're typing text, those programs store the text _as well as
@@ -69,7 +69,7 @@ whether these next five lines are part of a bullet-list, etc.) in the _same_
 file.  To make the loading and saving fast, these programs save the file in
 _binary_.
 
-#### Word Processors and HTML, Code
+### Word Processors and HTML, Code
 
 Since word processing programs store their output in _binary_ files and
 programs that read HTML (like browsers) or run code (like Ruby, Python,
